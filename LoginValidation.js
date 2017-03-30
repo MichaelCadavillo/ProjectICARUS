@@ -8,11 +8,11 @@ function Dbconnector(username, password, req, res) {
 		host : 'localhost',
 		user : 'root',
 		password : '',
-		database : 'studentlogin',
+		database : 'MyDatabase',
 		port : 3306
 	});
 	connection.connect();
-	connection.query("Select * from login_info Where ID = ? AND Password = ? ",
+	connection.query("Select * from students Where StudentID = ? AND password = ? ",
 			[ username, password ], function(err, rows) {
 				if (err) {
 					console.log(err);
@@ -23,9 +23,9 @@ function Dbconnector(username, password, req, res) {
 					console.log("Non existent");
 				} else {
 					rows.forEach(function(result) {
-						console.log("Welcome: " + result.ID);
+						console.log("Welcome: " + (result.firstName + " " +result. lastName));
 					});
-					res.redirect('/InteractiveCalendar02.html');
+					res.redirect('/home-page.html');
 				}
 
 			});

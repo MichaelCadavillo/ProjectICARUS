@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+  </head>
+  <link rel="stylesheet" href="../resources/design.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="../resources/styles.css">
+  <link rel="stylesheet" type="text/css" href="../resources/grid_og.css">
+
+  <body>
+    <div class="nav">
+    <ul>
+      <a href="https://www.iacademy.edu.ph/"><img id="MyImage" src="../resources/iacademy.png"></a>
+      <div class="dropdown1">
+        <div id="Panel1" class="item-d">
+          Go to https://www.iacademy.edu.ph/
+        </div>
+      </div>
+      <li><a href="home-page.html">Home</a></li>
+      <li><a href="reserve-page.html">Reserve</a></li>
+      <li><a href="#">Borrow</a></li>
+      <div class="dropdown">
+        <button class="dropbtn">About</button>
+          <div class="dropdown-content">
+              <a href="#">Reservation Tutorial</a>
+              <a href="#">Borrowing Tutorial</a>
+              <a href="#">Contact Us</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="container container-derp">
+      <div class="row margin-left">
+        <div class="column column-1">
+          <div class="item-a">
+          </div>
+        </div>
+      </div>
+      <div class="row margin-left">
+        <div class="column column-1">
+          <div class="item-b">
+            <div>
+              <div class="title">
+                Welcome to iACADEMY's
+              </div>
+              <div class="title">
+                Automated Borrowing of Materials and Reservation of Rooms
+              </div>
+              <div class="frm">
+                <form action="/input" method="post">
+                <p>  <label>Username</label>
+                  <input type="text" name="user[username]" placeholder="Username">
+                </p>
+                <p>
+                  <label>Password</label>
+                <input type="password" name="user[password]" placeholder="Password">
+                </p>
+                <p class="button">
+                  <button type="submit" id="button" value="Login">Login</button>
+                </p>
+                  <p class="">&copy;Project IKARUS 2017</p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <script type="text/javascript" src="../resources/jquery-3.2.0.min.js"></script>
+      <script>
+
+        $(function(){
+          $('#MyImage').on('mouseover', function(){
+            $('#Panel1').show(300).fadeOut(2000);
+          });
+        });
+      </script>
+
+
+  </body>
+</html>

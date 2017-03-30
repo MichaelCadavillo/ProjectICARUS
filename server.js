@@ -9,8 +9,9 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 app.set('port', 8000);
-app.use(express.static(path.join(__dirname, '/public')));
-app.use(express.static(path.join(__dirname, '/interactiveCalendar')));
+// app.use(express.static(path.join(__dirname, '/public/html/')));
+app.use('/', express.static(path.join(__dirname, '/public/html')));
+app.use('/resources/', express.static(path.join(__dirname, '/public/resources')));
 app.post('/input',
 		function(req, res) {
 			var db = new Data(req.body.user.username, req.body.user.password,

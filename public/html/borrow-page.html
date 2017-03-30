@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Borrow Item</title>
+    <link rel="stylesheet" type="text/css" href="../resources/styles.css">
+    <link rel="stylesheet" type="text/css" href="../resources/grid_og.css">
+  </head>
+  <body>
+    <div class="nav">
+    <ul>
+      <a href="https://www.iacademy.edu.ph/"><img id="MyImage" src="../resources/iacademy.png"></a>
+      <div class="dropdown1">
+        <div id="Panel1" class="item-d">
+          Go to https://www.iacademy.edu.ph/
+        </div>
+      </div>
+      <li><a href="home-page.html">Home</a></li>
+      <li><a href="reserve-page.html">Reserve</a></li>
+      <li><a class="active" href="#">Borrow</a></li>
+      <div class="dropdown">
+        <button class="dropbtn">About</button>
+          <div class="dropdown-content">
+              <a href="#">Reservation Tutorial</a>
+              <a href="#">Borrowing Tutorial</a>
+              <a href="#">Contact Us</a>
+          </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Account</button>
+          <div class="dropdown-content">
+              <a href="#">Reserved Rooms</a>
+              <a href="#">Materials Borrowed</a>
+              <a href="#">Log Out</a>
+          </div>
+      </div>
+    </ul>
+  </div>
+  <div class="container container-derp">
+    <div class="row margin-left">
+      <div class="column column-1">
+        <div class="item-a">
+        </div>
+      </div>
+    </div>
+    <div class="row margin-left">
+      <div class="column column-1">
+        <div class="item-b">
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="box">
+      <div class="row">
+        <div class="column column-1">
+          <h1>Borrow</h1>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../resources/jquery-3.2.0.min.js"></script>
+    <script>
+
+      $(function(){
+        $('#MyImage').on('mouseover', function(){
+          $('#Panel1').show(300).fadeOut(2000);
+        });
+      });
+    </script>
+
+
+  </body>
+</html>

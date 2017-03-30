@@ -1,20 +1,20 @@
 
 
 # ABMRR
-
+Automated Borrowing of Materials and Reservation of Rooms
 
 
 ## Usage
-
+This system focuses on the reservation of rooms and borrowing of materials
 
 
 ## Developing
-
+John Cuthpert Magbanua
+John Matthew Alviz
+Michael Angelo Cadavillo
+Paul Daniel Cristobal
 
 
 ### Tools
-
-Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
- ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
-
-Nodeclipse is free open-source project that grows with your contributions.
+front-end: html, css, jquery
+back-end: node.js
