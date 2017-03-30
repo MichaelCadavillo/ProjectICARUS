@@ -1,0 +1,183 @@
+/* Row and Column Defs*/
+.row,
+.column {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.row {
+  width: auto;
+  height: auto;
+}
+
+.column {
+    float: left;
+}
+
+.column-1 {
+    width: 6.86666666667%;
+}
+
+.column-2 {
+    width: 15.3333333333%;
+}
+
+.column-3 {
+    width: 23.8%;
+}
+
+.column-4 {
+    width: 32.2666666667%;
+}
+
+.column-5 {
+    width: 40.7333333333%;
+}
+
+.column-6 {
+    width: 49.2%;
+    float: left;
+}
+
+.column-7 {
+    width: 57.6666666667%;
+}
+
+.column-8 {
+    width: 66.1333333333%;
+}
+
+.column-9 {
+    width: 74.6%;
+}
+
+.column-10 {
+    width: 83.0666666667%;
+}
+
+.column-11 {
+    width: 91.5333333333%;
+}
+
+.column-12 {
+    width: 100%;
+}
+
+.column-offset-1 {
+    margin-left: 20%;
+}
+
+.column-offset-2 {
+    margin-left: 15.3333333333%;
+}
+
+.column-offset-3 {
+    margin-left: 23.8%;
+}
+
+.column-offset-4 {
+    margin-left: 32.2666666667%;
+}
+
+.column-offset-5 {
+    margin-left: 40.7333333333%;
+}
+
+.column-offset-6 {
+    margin-left: 49.2%;
+}
+
+.column-offset-7 {
+    margin-left: 57.6666666667%;
+}
+
+.column-offset-8 {
+    margin-left: 66.1333333333%;
+}
+
+.column-offset-9 {
+    margin-left: 74.6%;
+}
+
+.column-offset-10 {
+    margin-left: 83.0666666667%;
+}
+
+.column-offset-11 {
+    margin-left: 91.5333333333%;
+}
+
+.column-offset-12 {
+    margin-left: 100%;
+}
+
+
+.container {
+  position: relative;
+}
+
+/* div alignments */
+
+.topbar + .container {
+  margin-top: 84px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.layout-column-centered {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+
+/* This defines a gutter */
+.column + .column {
+    margin-left: 1.6%;
+}
+
+/*Clear fix*/
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.top-blue {
+  min width:100%;
+  height:200px;
+  background-color:blue;
+}
+.left-green{
+  min width:100px;
+  height:60vh;
+  background-color:green;
+}
+.row-space-1{
+  margin-top:32px
+}
+.text-area{
+  width:100%;
+  height:60vh;
+  text-align: center;
+}
+.left-pink {
+  min-width: 100px;
+  height:60vh;
+  background-color: pink;
+}
+
+.text-area {
+  width: 100%;
+  height:60vh;
+  text-align: center;
+}
+
+.row-space-1 {
+  margin-top: 32px
+}
