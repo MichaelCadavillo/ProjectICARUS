@@ -115,6 +115,10 @@ body {
   background: #ccc;
 }
 
+html, body{
+  height: 100%;
+}
+
 .nav ul {
   width: 100%;
 
@@ -229,4 +233,50 @@ body {
 .dropdown1 {
     position: relative;
     display: inline-block;
+}
+
+.sect{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.subSect{
+  height: 75%;
+  background-color: beige;
+}
+
+.subSect1{
+  height: 25%;
+  background-color: #252525;
+}
+
+.sectOne{
+  background-image: url('../resources/image1.JPG');
+}
+
+.sectTwo{
+  background-image: url('../resources/image2.JPG');
+}
+
+.sectThree{
+  background-image: url('../resources/image3.JPG');
+}
+
+.footerFont{
+  font-size: 18;
+  color: white;
+}
+
+.white{
+  color: white;
+}
+
+.black{
+  color: black;
+}
+
+.margin{
+  margin-top: 0px;
+  margin-left: 100px;
 }
