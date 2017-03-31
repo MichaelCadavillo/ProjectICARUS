@@ -16,5 +16,5 @@ Paul Daniel Cristobal
 
 
 ### Tools
-front-end: html, css, jquery, ajax, javascript 
+front-end: html, css, jquery, ajax, javascript  
 back-end: node.js, php, mySql
