@@ -264,6 +264,91 @@ body {
     display: inline-block;
 }
 
+html, body{
+  height: 100%;
+}
+
+.sect{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.subSect{
+  height: 75%;
+  background-color: beige;
+}
+
+.subSect1{
+  height: 25%;
+  background-color: #252525;
+}
+
+.sectOne{
+  background-image: url('../resources/image1.JPG');
+}
+
+.sectTwo{
+  background-image: url('../resources/image2.JPG');
+}
+
+.sectThree{
+  background-image: url('../resources/image3.JPG');
+}
+
+.footerFont{
+  font-size: 18;
+  color: white;
+}
+
+.white{
+  color: white;
+}
+
+.black{
+  color: black;
+}
+
+.margin{
+  margin-top: 0px;
+  margin-left: 100px;
+}
+
+.buttonDesign{
+  border-radius: 7px;
+  background-color: #3f51b5;
+  color: white;
+  width: 65px;
+  height: 35px;
+  margin-left: 15px;
+}
+
+.buttonDesign:hover{
+  animation: onHover 200ms ease-in forwards;
+}
+
+@keyframes onHover {
+    100%{
+      background-color: #96a5f7;
+      color: gray;
+    }
+}
+
+.inputDesign{
+  margin-left: 15px;
+  margin-bottom: 15px;
+  text-indent: 1vw;
+  width: 60vw;
+  height: 5vh;
+  border-radius: 5px;
+}
+
+.message{
+  height: 20vh;
+  text
+}
+
+
 .fontcenter{
   text-align: center;
   color: white;
