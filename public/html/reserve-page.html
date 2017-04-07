@@ -2,22 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Reserve Room Calendar</title>
-    <link rel="stylesheet" type="text/css" href="../resources/styles.css">
-    <link rel="stylesheet" type="text/css" href="../resources/grid_og.css">
+    <title>Interactive Event Calendar</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="grid_og.css">
   </head>
   <body>
     <div class="nav">
     <ul>
-      <a href="https://www.iacademy.edu.ph/"><img id="MyImage" src="../resources/iacademy.png"></a>
+      <a href="https://www.iacademy.edu.ph/"><img id="MyImage" src="iacademy.png"></a>
       <div class="dropdown1">
         <div id="Panel1" class="item-d">
           Go to https://www.iacademy.edu.ph/
         </div>
       </div>
-      <li><a href="home-page.html">Home</a></li>
+      <li><a href="#">Home</a></li>
       <li><a class="active" href="#">Reserve</a></li>
-      <li><a href="borrow-page.html">Borrow</a></li>
+      <li><a href="#">Borrow</a></li>
       <div class="dropdown">
         <button class="dropbtn">About</button>
           <div class="dropdown-content">
@@ -28,12 +28,33 @@
       </div>
       <div class="dropdown">
         <button class="dropbtn">Account</button>
-          <div class="dropdown-content">
-              <a href="#">Reserved Rooms</a>
-              <a href="#">Materials Borrowed</a>
-              <a href="#">Log Out</a>
+          <div class="dropdown-content1">
+              <img src="prof-pic.png" class="profpic">
+                  <div class="style17">
+                  </div>
+                  <div class="boxpic">
+                      <small><small>Materials Borrowed</small></small>
+                  </div>
+                  <div class="boxpic2">
+                      <small><small>Reserved Rooms</small></small>
+                  </div>
+                  <div class="boxpic3">
+                      <small>Log Out</small>
+                  </div>
+                  <div class="boxtext1">
+                      <h3>Matthew Alviz</h3>
+                  </div>
+                  <div class="boxtext2">
+                    Wehttamzivla@gmail.com
+                  </div>
+                  <div class="studentid">
+                    ID# 201501057
+                  </div>
           </div>
       </div>
+      </div>
+      <!--<li><a id="Account" href="#">Account</a></li>-->
+
     </ul>
   </div>
     <div class="container container-derp">
@@ -52,19 +73,744 @@
       </div>
       <div class="box">
         <div class="row">
+          <div class="fontcentered">
+              <h2>EVENT CALENDAR Alpha Test v.3.0wh</h2>
+          </div>
+        </div>
+        <div class="row">
+            <div id="month" class="fontcentered">
+              <h2>APRIL</h2>
+            </div>
+        </div>
+        <div class="row">
           <div class="column column-1">
-            <h1>Reserve</h1>
+            <div class="item-f">
+
+            </div>
+          </div>
+            <div class="column column-1">
+              <div class="item-f">
+                <div class="fontcenter">
+                  MON
+                </div>
+            </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                  TUE
+            </div>
+          </div>
+        </div>
+      <div class="column column-1">
+        <div class="item-f">
+          <div class="fontcenter">
+              WED
           </div>
         </div>
       </div>
-      <script type="text/javascript" src="../resources/jquery-3.2.0.min.js"></script>
-      <script>
+      <div class="column column-1">
+        <div class="item-f">
+          <div class="fontcenter">
+            THU
+          </div>
+        </div>
+      </div>
+      <div class="column column-1">
+        <div class="item-f">
+          <div class="fontcenter">
+            FRI
+          </div>
+        </div>
+      </div>
+      <div class="column column-1">
+        <div class="item-f">
+          <div class="fontcenter">
+            SAT
+          </div>
+        </div>
+      </div>
+      <div class="column column-1">
+        <div class="item-f">
+          <div class="fontcenter">
+            SUN
+          </div>
+        </div>
+      </div>
+      </div>
 
-        $(function(){
-          $('#MyImage').on('mouseover', function(){
-            $('#Panel1').show(300).fadeOut(2000);
-          });
-        });
-      </script>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                7 <small><small><sup>AM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel1" id="panel1" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel16" id="panel16" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel31" id="panel31" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel46" id="panel46" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel61" id="panel61" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel76" id="panel76" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel91" id="panel91" cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                8 <small><small><sup>AM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel2" id="panel2" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel17" id="panel17" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel32" id="panel32" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel47" id="panel47" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel62" id="panel62" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel77" id="panel77" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel92" id="panel92" cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                9 <small><small><sup>AM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel3" id="panel3" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel18" id="panel18" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel33" id="panel33" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel48" id="panel48" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel63" id="panel63" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel78" id="panel78" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel93" id="panel93" cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                10 <small><small><sup>AM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel4" id="panel4" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel19" id="panel19" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel34" id="panel34" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel49" id="panel49" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel64" id="panel64" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel79" id="panel79" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel94" id="panel94" cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                11 <small><small><sup>AM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel5" id="panel5"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel20" id="panel20"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel35" id="panel35"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel50" id="panel50"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel65" id="panel65"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel80" id="panel80"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel95" id="panel95"cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                12 <small><small><sup>PM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel6" id="panel6"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel21" id="panel21"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel36" id="panel36"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel51" id="panel51"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel66" id="panel66"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel81" id="panel81"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel96" id="panel96"cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                1 <small><small><sup>PM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel7" id="panel7"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel22" id="panel22"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel37" id="panel37"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel52" id="panel52"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel67" id="panel67"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel82" id="panel82"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel97" id="panel97"cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                2 <small><small><sup>PM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel8" id="panel8"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel23" id="panel23"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel38" id="panel38"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel53" id="panel53"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel68" id="panel68"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel83" id="panel83"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel98" id="panel98"cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                3 <small><small><sup>PM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel9" id="panel9"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel24" id="panel24"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel39" id="panel39"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel54" id="panel54"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel69" id="panel69"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel84" id="panel84"cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel99" id="panel99"cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                4 <small><small><sup>PM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel10" id="panel10" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel25" id="panel25" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel40" id="panel40" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel55" id="panel55" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel70" id="panel70" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel85" id="panel85" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel100" id="panel100" cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                5 <small><small><sup>PM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel11" id="panel11" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel26" id="panel26" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel41" id="panel41" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel56" id="panel56" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel71" id="panel71" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel86" id="panel86" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel101" id="panel101" cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                6 <small><small><sup>PM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel12" id="panel12" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel27" id="panel27" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel42" id="panel42" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel57" id="panel57" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel72" id="panel72" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel87" id="panel87" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel102" id="panel102" cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                7 <small><small><sup>PM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel13" id="panel13" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel28" id="panel28" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel43" id="panel43" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel58" id="panel58" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel73" id="panel73" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel88" id="panel88" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel103" id="panel103" cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                8 <small><small><sup>PM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel14" id="panel14" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel29" id="panel29" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel44" id="panel44" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel59" id="panel59" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel74" id="panel74" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel89" id="panel89" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel104" id="panel104" cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-1">
+          <div class="item-f">
+            <div class="fontcenter">
+                9 <small><small><sup>PM</sup></small></small>
+            </div>
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel15" id="panel15" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel30" id="panel30" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel45" id="panel45" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel60" id="panel60" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel75" id="panel75" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel90" id="panel90" cellstate="yes">
+
+          </div>
+        </div>
+        <div class="column column-1">
+          <div class="item-g" data-panelid="panel105" id="panel105" cellstate="yes">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="buttonA" class="abutton">
+    <button type="button" name="Abutton">>></button>
+  </div>
+  <div id="buttonB" class="bbutton">
+    <button type="button" name="Bbutton"><<</button>
+  </div>
+
+  <div class="boxAccount">
+
+  </div>
+      <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+      <script type="text/javascript" src="InteractiveCalendar02.js"></script>
   </body>
 </html>

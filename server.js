@@ -16,6 +16,7 @@ app.post('/input',
 		function(req, res) {
 			var db = new Data(req.body.user.username, req.body.user.password,
 					req, res);
+    console.log("Result: " + db);
 		});
 console.log('Server running on port: ' + app.get('port'));
 app.listen(app.get('port'));
