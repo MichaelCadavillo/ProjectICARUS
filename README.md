@@ -5,7 +5,7 @@ Automated Borrowing of Materials and Reservation of Rooms
 
 
 ## Usage
-This system focuses on the reservation of rooms and borrowing of materials
+This system focuses on the reservation of rooms and borrowing of materials in iACADEMY
 
 
 ## Developing
